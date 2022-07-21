@@ -139,6 +139,7 @@
                 <input
                   type="text"
                   class="w-full border border-input-border bg-input px-4 py-4"
+                  required
                 />
               </div>
               <div>
@@ -149,6 +150,7 @@
                   type="email"
                   id="email"
                   class="w-full border border-input-border bg-input px-4 py-4"
+                  required
                 />
               </div>
               <div>
@@ -157,10 +159,14 @@
                 </label>
                 <textarea
                   class="w-full border border-input-border bg-input px-4 py-4 h-56 resize-none"
+                  required
                 >
                 </textarea>
               </div>
-              <button type="submit" "px-6 py-2 bg-theme text-white font-bold">
+              <button
+                type="submit"
+                class="px-6 py-2 bg-theme text-white font-bold"
+              >
                 Send it!
               </button>
             </form>
